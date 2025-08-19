@@ -14,19 +14,25 @@
         <h1>Advinhe o Número</h1>
     </header>
 
-    <main class="cotainer">
+    <main>
         
-        <div class="formulario"></div>
+        <div class="jogo">
             <h1>Qual seu palpite!</h1>
 
             <form method="post">
-                <label for="palpite">Dgite um Número</label>
+                <label for="palpite">Dgite um número de 1 a 20</label>
                 <input type="number" name="number" id="palpite">
                 <input type="submit" class="bt-enviar" value="ENVIAR">
             </form>
-        </div>
 
-    </main>
+            <!-- {% if resultado %} 
+            <div class="resultado {% if "Parabéns" in resultado %}acerto{% else %}erro{% endif %}">
+            <p>{{ resultado }}</p>
+            </div>
+            {% endif %} -->
+        </div>    
+
+    </main>    
 
 </body>
 </html>

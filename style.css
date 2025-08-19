@@ -5,11 +5,40 @@
 }
 
 header {
-    text-align: center;
-    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px white;
+    height:90px;
+    background-color: rgb(92, 104, 92);
+    color: white;
+    box-shadow: black;
 }
 
-.container{
+main {
+    background-color: rgb(156, 187, 172);
+    height: 85vh;
+    width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 60px;
+}
+
+.jogo {
+    background-color: rgb(92, 104, 92);
+    border: solid white 3px;
+    width: 500px;
+    height: 700px;
+    margin-top: 40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow:black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
